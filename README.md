@@ -61,7 +61,6 @@ ComfierUI connects to a running ComfyUI server using its host address.
 
 Typical examples include:
 
-```text
 192.168.1.100:8188
 
 or a private VPN/Tailscale address:
