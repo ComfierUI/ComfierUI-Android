@@ -63,3 +63,114 @@ Typical examples include:
 
 ```text
 192.168.1.100:8188
+
+or a private VPN/Tailscale address:
+
+100.x.x.x:8188
+
+The app automatically handles the required http:// prefix.
+
+ComfyUI must be configured to accept connections from the device you are using.
+
+Remote Access
+
+For access outside your home network, a private VPN such as Tailscale is strongly recommended.
+
+Do not expose your ComfyUI port directly to the public internet unless you fully understand and secure the environment.
+
+ComfyUI does not provide authentication by default.
+
+Quick Start Guide
+
+ComfierUI includes a built-in Quick Start Guide directly on the Connections screen.
+
+The guide covers:
+
+Home-network access
+ComfyUI-Manager Personal Cloud mode
+Tailscale remote access
+Potato Phone Mode
+Installing and using ComfierUI Companion
+Device Support
+
+ComfierUI is designed for Android phones, foldables, and tablets.
+
+Recommended
+Android 9 or newer
+6 GB RAM or more
+Practical Minimum
+Android 8.1
+Approximately 4 GB RAM
+
+Large or visually complex workflows may require more capable hardware.
+
+ComfyUI itself continues running on the host computer, so the Android device does not perform model inference.
+
+Potato Phone Mode
+
+Potato Phone Mode is an optional client-side performance mode intended for older or lower-powered Android devices.
+
+When enabled, it reduces the rendering workload of the ComfyUI interface by:
+
+Limiting workflow-canvas rendering to approximately 30 FPS
+Reducing animations and transitions
+Reducing compositing effects
+Using immediate scrolling behavior
+
+It does not change model generation settings or reduce inference quality on the host.
+
+Foldable Support
+
+ComfierUI includes dedicated behavior for foldable devices.
+
+Layouts adapt between outer and inner displays, portrait and landscape orientations, and smaller screen widths.
+
+The interface is designed around touch interaction rather than simply shrinking the desktop UI.
+
+Downloads and Releases
+
+Official Android builds will be distributed through this repository's Releases section.
+
+Only download ComfierUI from official ComfierUI sources.
+
+Privacy
+
+ComfierUI is designed as a client for connecting directly to a ComfyUI server selected by the user.
+
+A full privacy statement will be available in this repository:
+
+PRIVACY.md
+
+Issues and Feedback
+
+Bug reports and compatibility reports can be submitted through the GitHub Issues section.
+
+When reporting an issue, please include:
+
+ComfierUI version
+Android version
+Device model
+ComfyUI version if relevant
+Steps needed to reproduce the issue
+
+Please do not include private IP addresses, authentication credentials, API keys, or other sensitive information in public issue reports.
+
+Source Availability
+
+The ComfierUI Android application is proprietary software and is not open source.
+
+This public repository is provided for:
+
+Releases
+Documentation
+Privacy information
+Issue tracking
+Project information
+
+The open-source ComfierUI Companion extension is maintained separately.
+
+Copyright
+
+Copyright © 2026 ComfierUI.
+
+All rights reserved.
